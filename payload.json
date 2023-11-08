@@ -1,0 +1,50 @@
+{
+    "client": {
+        "clientId": "yourcompanyname",
+        "clientVersion": "1.5.2"
+    },
+    "threatInfo": {
+        "threatTypes": [
+            "MALWARE",
+            "SOCIAL_ENGINEERING"
+        ],
+        "platformTypes": [
+            "WINDOWS"
+        ],
+        "threatEntryTypes": [
+            "URL"
+        ],
+        "threatEntries": [
+            {
+                "url": "http://www.cs.columbia.edu/~brian/"
+            },
+            {
+                "url": "http://aarongluck.com/"
+            },
+            {
+                "url": "https://testsafebrowsing.appspot.com/s/image_small.html"
+            },
+            {
+                "url": "https://testsafebrowsing.appspot.com/s/trick_to_bill.html"
+            },
+            {
+                "url": "https://testsafebrowsing.appspot.com/s/unwanted.html"
+            },
+            {
+                "url": "https://testsafebrowsing.appspot.com/s/malware.html"
+            },
+            {
+                "url": "https://testsafebrowsing.appspot.com/s/malware_in_iframe.html"
+            },
+            {
+                "url": "https://imagesvibe.com/wp-content/uploads/2023/05/Cute-Cat-Images14.jpg"
+            },
+            {
+                "url": "https://tenor.com/view/father-ted-jack-feck-off-gif-10476223"
+            },
+            {
+                "url": "https://imagesvibe.com/wp-content/uploads/2023/05/Cute-Cat-Images14.jpg"
+            }
+        ]
+    }
+}
