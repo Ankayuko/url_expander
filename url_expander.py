@@ -48,7 +48,7 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
 
 my_list = list(expanded_urls.values())
 
-api_key='AIzaSyC39wxpzg_55jagJZn4Yy4EuRrqp85PBZw'
+api_key=''
 url = "https://safebrowsing.googleapis.com/v4/threatMatches:find"
 
 f = open('payload.json', 'r+')
