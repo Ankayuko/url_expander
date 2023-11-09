@@ -46,8 +46,6 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
         expanded_urls.update(future.result())
         logging.info(future.result())
 
-my_list = list(expanded_urls.values())
-
 api_key=''
 url = "https://safebrowsing.googleapis.com/v4/threatMatches:find"
 
